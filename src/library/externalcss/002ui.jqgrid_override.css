@@ -1,0 +1,160 @@
+/* Vipul */
+.disabledRow {
+    background-color: rgba(158, 158, 158, 0.2) !important;
+    border: 1px solid #a6c9e2 !important;
+    opacity: .5 !important;
+}
+
+.errorRow {
+    background: rgba(252, 217, 229, 0.5) !important;
+    border-color: red !important;
+}
+.ui-jqgrid .ui-jqgrid-pager {
+    z-index: 10;
+}
+
+.ui-menu {
+    padding: 10px !important;
+}
+
+.ViewTable tr {
+    border-bottom: solid;
+    border-bottom-width: thin;
+    border-bottom-color: lightblue;
+}
+
+.ui-widget {
+    font-family: Arial, sans-serif !important;
+    font-size: 1.1em;
+}
+
+/*.ui-jqgrid .ui-jqgrid-sdiv {
+    overflow: hidden;
+}*/
+
+.ui-jqdialog .ui-jqdialog-titlebar {
+    height: 25px;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    border-color: lightblue;
+}
+
+.ui-jqgrid .ui-jqgrid-hbox {
+    float: left;
+    padding-right: 0px;
+}
+
+.ui-jqdialog-content,
+.ui-jqdialog .ui-jqdialog-content {
+    border: 0;
+    background: none;
+    height: auto;
+    padding: 20px 20px;
+}
+
+.ui-dialog-titlebar-close::after {
+    content: "x";
+    color: grey;
+}
+
+
+/*.ui-jqgrid {
+    overflow-x: auto !important;
+}*/
+
+.ui-jqgrid tr.ui-edit-toolbar th {
+}
+
+.ui-jqgrid tr.ui-edit-toolbar td > input {
+    padding-right: 0px;
+    width: 95%;
+}
+
+.ui-jqgrid tr.ui-edit-toolbar select {
+}
+
+.ui-jqgrid .ui-edit-table td.ui-edit-clear {
+    width: 25px;
+}
+
+.ui-jqgrid .ui-edit-table {
+    padding: 0;
+    border: 0 none;
+    height: 20px;
+    width: 100%;
+}
+
+    .ui-jqgrid .ui-edit-table .ui-edit-oper {
+        width: 20px;
+    }
+
+
+.ui-jqgrid .ui-jqgrid-titlebar {
+    height: 25px;
+    color: #2e6e9e;
+}
+
+/*.ui-jqgrid .ui-jqgrid-sdiv {
+    overflow: visible;
+}*/
+
+.ui-jqgrid .ui-jqgrid-hdiv {
+    overflow: visible;
+}
+
+.ui-dialog .ui-dialog-title {
+    font-size: 12px;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+    font-size: 12px;
+}
+
+ui-dialog-titlebar-close {
+    cursor: pointer;
+}
+
+.fm-button {
+    padding-bottom: 20px;
+}
+
+.ui-edit-table select,
+.ui-edit-table input {
+    padding: 4px 3px;
+}
+
+div.ui-jqdialog-content td.form-view-data {
+    white-space: normal !important;
+    height: auto;
+    vertical-align: middle;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.ui-corner-all, ui-corner-bottom, ui-corner-right, ui-corner-br {
+    border-bottom-right-radius: 0px;
+}
+
+.ui-corner-all, ui-corner-bottom, ui-corner-left, ui-corner-bl {
+    border-bottom-left-radius: 0px;
+}
+
+.ui-corner-all, ui-corner-bottom, ui-corner-top, ui-corner-tr {
+    border-top-left-radius: 0px;
+}
+
+.ui-corner-all, ui-corner-bottom, ui-corner-top, ui-corner-tl {
+    border-top-right-radius: 0px;
+}
+
+.ui-jqdialog .ui-jqdialog-titlebar {
+    height: 25px;
+}
+
+.selected {
+    border-bottom-color: red;
+    border-bottom-style: solid;
+    /*background-color: #2196f3;*/
+}
+
+

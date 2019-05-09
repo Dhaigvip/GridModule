@@ -1,0 +1,21 @@
+<div class="row padding">
+    <div class="col-md-12" style="height:200px">
+
+        <jqGrid #aggOrder="jqGrid" [dtOptions]="aggOrderOptions"
+                [id]="table_id"
+                [filterOptions]="filterOptions"
+                [getData]="GetAggOrderData"
+                [getSubData]="GetOrderData"
+                [gridPersistence]="aggOrderPersistence"
+                [getReferenceData]="GetReferenceData"
+                (saveData)="Save($event)"
+                (exportData)="ExportAggOrder($event)"
+                [subGridOptions]="aggOrdersubOptions"
+                (updatePersistence)="UpdatePersistence($event)">
+        </jqGrid>
+        <br />
+        <button (click)="ReloadGrid()">Reload</button>
+        <button (click)="GetRowsToSave()">GetRows</button>
+    </div>
+</div>
+

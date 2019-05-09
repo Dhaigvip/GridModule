@@ -1,0 +1,593 @@
+ [
+  {
+    "GroupCode": "ACCOUNT_TYPE",
+    "Items": [
+      {
+        "Code": "ORD",
+        "Text": "Ordinary account"
+      },
+      {
+        "Code": "ADJ",
+        "Text": "Adjustment account"
+      },
+      {
+        "Code": "AGG",
+        "Text": "Aggregated account"
+      }
+    ]
+  },
+  {
+    "GroupCode": "AGG_ORDER_TYPE",
+    "Items": [
+      {
+        "Code": "SUB",
+        "Text": "Subscription"
+      },
+      {
+        "Code": "RED",
+        "Text": "Redemption"
+      }
+    ]
+  },
+  {
+    "GroupCode": "CASH_ACCT_FORMAT",
+    "Items": [
+      {
+        "Code": "IBAN",
+        "Text": "IBAN"
+      },
+      {
+        "Code": "OTHR",
+        "Text": "Other"
+      }
+    ]
+  },
+  {
+    "GroupCode": "CCY_ORDER_TYPE",
+    "Items": [
+      {
+        "Code": "BUY",
+        "Text": "Buy"
+      },
+      {
+        "Code": "SEL",
+        "Text": "Sell"
+      }
+    ]
+  },
+  {
+    "GroupCode": "CCY_PRICE_TYPE",
+    "Items": [
+      {
+        "Code": "SMI",
+        "Text": "Stated price"
+      },
+      {
+        "Code": "BID",
+        "Text": "Bid price"
+      },
+      {
+        "Code": "ASK",
+        "Text": "Ask price"
+      },
+      {
+        "Code": "MID",
+        "Text": "Mid price"
+      }
+    ]
+  },
+  {
+    "GroupCode": "CHARGE_BEARER",
+    "Items": [
+      {
+        "Code": "CRED",
+        "Text": "Borne by creditor"
+      },
+      {
+        "Code": "DEBT",
+        "Text": "Borne by debtor"
+      },
+      {
+        "Code": "SHAR",
+        "Text": "Shared"
+      },
+      {
+        "Code": "SLEV",
+        "Text": "Following service level"
+      }
+    ]
+  },
+  {
+    "GroupCode": "COUNTRY",
+    "Items": [
+      {
+        "Code": "SE",
+        "Text": "Sweden"
+      },
+      {
+        "Code": "FI",
+        "Text": "Finland"
+      },
+      {
+        "Code": "NO",
+        "Text": "Norway"
+      },
+      {
+        "Code": "LU",
+        "Text": "Luxemburg"
+      },
+      {
+        "Code": "DK",
+        "Text": "Denmark"
+      },
+      {
+        "Code": "GB",
+        "Text": "Great Britain"
+      },
+      {
+        "Code": "JP",
+        "Text": "Japan"
+      },
+      {
+        "Code": "CH",
+        "Text": "Switzerland"
+      },
+      {
+        "Code": "SG",
+        "Text": "Singapore"
+      },
+      {
+        "Code": "US",
+        "Text": "United States of America"
+      },
+      {
+        "Code": "EE",
+        "Text": "Estonia"
+      },
+      {
+        "Code": "AT",
+        "Text": "Austria"
+      },
+      {
+        "Code": "BE",
+        "Text": "Belgium"
+      },
+      {
+        "Code": "IE",
+        "Text": "Ireland"
+      },
+      {
+        "Code": "DE",
+        "Text": "Germany"
+      },
+      {
+        "Code": "FR",
+        "Text": "France"
+      }
+    ]
+  },
+  {
+    "GroupCode": "CULTURE_CODE",
+    "Items": [
+      {
+        "Code": "sv-SE",
+        "Text": "Swedish"
+      },
+      {
+        "Code": "en-GB",
+        "Text": "English-UK"
+      }
+    ]
+  },
+  {
+    "GroupCode": "CURRENCY",
+    "Items": [
+      {
+        "Code": "SEK",
+        "Text": "SEK"
+      },
+      {
+        "Code": "EUR",
+        "Text": "EUR"
+      },
+      {
+        "Code": "GBP",
+        "Text": "GBP"
+      },
+      {
+        "Code": "USD",
+        "Text": "USD"
+      },
+      {
+        "Code": "NOK",
+        "Text": "NOK"
+      },
+      {
+        "Code": "JPY",
+        "Text": "JPY"
+      },
+      {
+        "Code": "CHF",
+        "Text": "CHF"
+      }
+    ]
+  },
+  {
+    "GroupCode": "DATE_TYPE",
+    "Items": [
+      {
+        "Code": "FLL",
+        "Text": "Business day"
+      },
+      {
+        "Code": "HLF",
+        "Text": "Half day"
+      },
+      {
+        "Code": "NON",
+        "Text": "Non-business day"
+      }
+    ]
+  },
+  {
+    "GroupCode": "DISTRIBUTION_CHANNEL",
+    "Items": [
+      {
+        "Code": "FAX",
+        "Text": "Fax"
+      },
+      {
+        "Code": "SWIFT",
+        "Text": "SWIFT"
+      }
+    ]
+  },
+  {
+    "GroupCode": "DISTRIBUTION_POLICY",
+    "Items": [
+      {
+        "Code": "DIST",
+        "Text": "Distributing"
+      },
+      {
+        "Code": "ACCU",
+        "Text": "Accumulating"
+      }
+    ]
+  },
+  {
+    "GroupCode": "DIVIDEND_POLICY",
+    "Items": [
+      {
+        "Code": "UNIT",
+        "Text": "Units"
+      },
+      {
+        "Code": "CASH",
+        "Text": "Cash"
+      },
+      {
+        "Code": "BOTH",
+        "Text": "Both units and cash"
+      }
+    ]
+  },
+  {
+    "GroupCode": "EUSD_SCOPE",
+    "Items": [
+      {
+        "Code": "EUSI",
+        "Text": "In scope"
+      },
+      {
+        "Code": "EUSO",
+        "Text": "Not in scope"
+      },
+      {
+        "Code": "VARI",
+        "Text": "Variable"
+      }
+    ]
+  },
+  {
+    "GroupCode": "FREQUENCY",
+    "Items": [
+      {
+        "Code": "YEAR",
+        "Text": "Annual"
+      },
+      {
+        "Code": "MIAN",
+        "Text": "Semi-annually"
+      },
+      {
+        "Code": "QUTR",
+        "Text": "Quarterly"
+      },
+      {
+        "Code": "MNTH",
+        "Text": "Monthly"
+      },
+      {
+        "Code": "WEEK",
+        "Text": "Weekly"
+      },
+      {
+        "Code": "DAIL",
+        "Text": "Daily"
+      },
+      {
+        "Code": "CLOS",
+        "Text": "Closed"
+      },
+      {
+        "Code": "TOMN",
+        "Text": "Every two months"
+      },
+      {
+        "Code": "TOWK",
+        "Text": "Every two weeks"
+      },
+      {
+        "Code": "TWMN",
+        "Text": "Twice a month"
+      },
+      {
+        "Code": "ADHO",
+        "Text": "Ad hoc"
+      }
+    ]
+  },
+  {
+    "GroupCode": "FUND_IDENTIFIER",
+    "Items": [
+      {
+        "Code": "SUS",
+        "Text": "SUS agreement no"
+      }
+    ]
+  },
+  {
+    "GroupCode": "FUND_PRICE_TYPE",
+    "Items": [
+      {
+        "Code": "NAVL",
+        "Text": "NAV"
+      },
+      {
+        "Code": "SUBN",
+        "Text": "Subscription price"
+      },
+      {
+        "Code": "REDN",
+        "Text": "Redemption price"
+      },
+      {
+        "Code": "ACTU",
+        "Text": "Actual price"
+      },
+      {
+        "Code": "BIDE",
+        "Text": "Bid price"
+      }
+    ]
+  },
+  {
+    "GroupCode": "FUND_TYPE",
+    "Items": [
+      {
+        "Code": "EQUITY",
+        "Text": "Equity fund"
+      },
+      {
+        "Code": "BOND",
+        "Text": "Bond fund"
+      },
+      {
+        "Code": "MNYMARKET",
+        "Text": "Money market fund"
+      },
+      {
+        "Code": "MIXED",
+        "Text": "Mixed fund"
+      },
+      {
+        "Code": "HEDGE",
+        "Text": "Hedge fund"
+      },
+      {
+        "Code": "SPECIAL",
+        "Text": "Special fund"
+      },
+      {
+        "Code": "UNKNOWN",
+        "Text": "Unknown"
+      }
+    ]
+  },
+  {
+    "GroupCode": "FX_SYMBOL",
+    "Items": [
+      {
+        "Code": "EUR/SEK",
+        "Text": "EUR/SEK"
+      },
+      {
+        "Code": "GBP/SEK",
+        "Text": "GBP/SEK"
+      },
+      {
+        "Code": "USD/SEK",
+        "Text": "USD/SEK"
+      },
+      {
+        "Code": "NOK/SEK",
+        "Text": "NOK/SEK"
+      },
+      {
+        "Code": "JPY/SEK",
+        "Text": "JPY/SEK"
+      },
+      {
+        "Code": "CHF/SEK",
+        "Text": "CHF/SEK"
+      }
+    ]
+  },
+  {
+    "GroupCode": "LANGUAGE_CODE",
+    "Items": [
+      {
+        "Code": "41D",
+        "Text": "Swedish"
+      },
+      {
+        "Code": "809",
+        "Text": "English-UK"
+      }
+    ]
+  },
+  {
+    "GroupCode": "ORDER_TYPE",
+    "Items": [
+      {
+        "Code": "SUB",
+        "Text": "Subscription"
+      },
+      {
+        "Code": "RED",
+        "Text": "Redemption"
+      },
+      {
+        "Code": "ADJ",
+        "Text": "Adjustment"
+      }
+    ]
+  },
+  {
+    "GroupCode": "PAYMENT_ENTITY",
+    "Items": [
+      {
+        "Code": "DEBTOR",
+        "Text": "Debtor"
+      },
+      {
+        "Code": "DEBTOR_AGENT",
+        "Text": "Debtor agent"
+      },
+      {
+        "Code": "INTERMEDIARY1",
+        "Text": "Intermediary 1"
+      },
+      {
+        "Code": "INTERMEDIARY2",
+        "Text": "Intermediary 2"
+      },
+      {
+        "Code": "CREDITOR_AGENT",
+        "Text": "Creditor agent"
+      },
+      {
+        "Code": "CREDITOR",
+        "Text": "Creditor"
+      }
+    ]
+  },
+  {
+    "GroupCode": "PAYMENT_MSG_TYPE",
+    "Items": [
+      {
+        "Code": "MT103",
+        "Text": "MT103"
+      },
+      {
+        "Code": "MT202",
+        "Text": "MT202"
+      }
+    ]
+  },
+  {
+    "GroupCode": "RELATED_PARTY_CODE",
+    "Items": [
+      {
+        "Code": "FMCO",
+        "Text": "Fund management company (FMCO)"
+      },
+      {
+        "Code": "REGI",
+        "Text": "Registrar (REGI)"
+      },
+      {
+        "Code": "TRAG",
+        "Text": "Transfer agent (TRAG)"
+      },
+      {
+        "Code": "INTR",
+        "Text": "Intermediary (INTR)"
+      },
+      {
+        "Code": "DIST",
+        "Text": "Distributor (DIST)"
+      },
+      {
+        "Code": "CONC",
+        "Text": "Concentrator (CONC)"
+      },
+      {
+        "Code": "UCL1",
+        "Text": "Underlying client 1 (UCL1)"
+      },
+      {
+        "Code": "UCL2",
+        "Text": "Underlying client 2 (UCL2)"
+      },
+      {
+        "Code": "TRAN",
+        "Text": "Transmitting agent (TRAN)"
+      }
+    ]
+  },
+  {
+    "GroupCode": "TRANSACTION_MODE",
+    "Items": [
+      {
+        "Code": "1",
+        "Text": "Amount"
+      },
+      {
+        "Code": "2",
+        "Text": "Units"
+      }
+    ]
+  },
+  {
+    "GroupCode": "TRANSACTION_MODE_CODE",
+    "Items": [
+      {
+        "Code": "AMOUNT",
+        "Text": "Amount"
+      },
+      {
+        "Code": "UNITS",
+        "Text": "Units"
+      }
+    ]
+  },
+  {
+    "GroupCode": "TRANSFER_ALLOWED",
+    "Items": [
+      {
+        "Code": "TRAL",
+        "Text": "Transfer allowed"
+      },
+      {
+        "Code": "TRNA",
+        "Text": "Transfer not allowed"
+      },
+      {
+        "Code": "RFOD",
+        "Text": "Refer to order desk"
+      }
+    ]
+  }
+]

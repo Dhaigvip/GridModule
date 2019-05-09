@@ -1,0 +1,19 @@
+{
+  "name": "tcm-base-grid",
+  "version": "1.0.27",
+  "author": {
+    "name": "Vipul Dhaigude",
+    "email": "vipuldhaigude@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "module": "tcm-jqgrid1.js",
+  "typings": "tcm-jqgrid1.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^5.1.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}

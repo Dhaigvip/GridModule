@@ -1,0 +1,44 @@
+export class AggregatedOrder {
+
+    AggregatedOrderId: string
+    ExternalOrderId: string
+    FundName: string
+    TransactionModeCode: string
+    OrderPlacementCode: string
+    OrderType: string
+    Isin: string
+    ErrorNo: string
+    OrganizationName: string
+    StatusInformation: string
+    TradeCurrencyId: string
+    TradeDate: Date
+    SettlementDate: Date
+    CashSettlementDate: Date
+    ExternalAccountNumber: string
+    ExternalAccountLabel: string
+    OrderAmount: number
+    Units: number
+    TradeAmount: number
+    SettlementAmount: number
+    IsFinalised: boolean
+    FundPrice: number
+    FundPriceTypeId: string
+    CurrencyPrice: number
+    ExternalFeeAmount: number
+    IsPaid: boolean
+    IsApprovedToSend: boolean
+    IsConfirmed: boolean
+    IsForced: boolean
+    ExternalSendDate: Date
+    ExternalResponseDate: Date
+    PaymentSendDate: Date
+    PaymentResponseDate: Date
+    AccountingSendDate: Date
+    AccountingResponseDate: Date
+    ErrorNumber: string
+    ErrorText: string
+    CreatedDate: Date
+    ObjectVersion: string
+    ExtPosReference: string
+    PaymentChannel: string
+}

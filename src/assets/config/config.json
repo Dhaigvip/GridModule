@@ -1,0 +1,8 @@
+{
+  "WebApiUrl": "http://tcmrobur2012.bise.financialsolutions.se:5000/api/",
+  "SignalRUrl": "http://tcmrobur2012.bise.financialsolutions.se:5000"
+,
+  "userPersistence": false,
+  "staticData": true,
+  "dashBoard": false
+}

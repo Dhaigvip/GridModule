@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B7C315B8-74AF-4F74-950D-C3F0588F8C6C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TCMJQGridModule_VS</RootNamespace>
+    <AssemblyName>TCMJQGridModule_VS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gulpfile.js" />
+    <Content Include="karma.config.js" />
+    <Content Include="packages.config" />
+    <Content Include="e2e\tsconfig.e2e.json" />
+    <Content Include="protractor.conf.js" />
+    <Content Include="src\assets\.gitkeep" />
+    <Content Include="src\jquery\jquery.min.js" />
+    <Content Include="src\library\bundles\grid1.css" />
+    <Content Include="src\library\bundles\grid1.js" />
+    <Content Include="src\library\bundles\images\complex_search.PNG" />
+    <Content Include="src\library\bundles\images\field_chooser.PNG" />
+    <Content Include="src\library\bundles\images\filter.PNG" />
+    <Content Include="src\library\bundles\images\filteroptions.PNG" />
+    <Content Include="src\library\bundles\images\row_details.PNG" />
+    <Content Include="src\library\bundles\images\sub_grid.PNG" />
+    <Content Include="src\library\bundles\images\tieto_com_blue.png" />
+    <Content Include="src\library\bundles\images\Tieto_logo_blue.png" />
+    <Content Include="src\library\bundles\images\Tieto_logo_white.png" />
+    <Content Include="src\library\bundles\images\Toolbar.PNG" />
+    <Content Include="src\library\bundles\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="src\library\bundles\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="src\library\bundles\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="src\library\bundles\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="src\library\bundles\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="src\library\bundles\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="src\library\bundles\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="src\library\bundles\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="src\library\bundles\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="src\library\bundles\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="src\library\bundles\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="src\library\bundles\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="src\library\bundles\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="src\library\externalcss\001ui.jqgrid.css" />
+    <Content Include="src\library\externalcss\002ui.jqgrid_override.css" />
+    <Content Include="src\library\externaljs\01grid.locale-en.js" />
+    <Content Include="src\library\package.json" />
+    <Content Include="src\library\tsconfig.es5.json" />
+    <Content Include="src\library\tsconfig.spec.json" />
+    <Content Include="src\tsconfig.app.json" />
+    <Content Include="test\main.js" />
+    <Content Include="webpack.test.config.js" />
+    <Content Include="webpack.config.js" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="tsconfig.json" />
+    <Content Include="tslint.json" />
+    <Content Include="src\tsconfig.spec.json" />
+    <Content Include="src\assets\i18n\en.json" />
+    <Content Include="src\assets\i18n\sv.json" />
+    <Content Include="src\assets\i18n\en-US.json" />
+    <Content Include="src\assets\i18n\sv-SE.json" />
+    <Content Include="src\assets\data\staticdata.json" />
+    <Content Include="src\assets\config\config.json" />
+    <Content Include=".npmrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\app\app.component.css" />
+    <Content Include="src\app\app.component.html" />
+    <Content Include="src\favicon.ico" />
+    <Content Include="src\index.html" />
+    <Content Include="src\library\externalcss\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="src\library\externalcss\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="src\library\externalcss\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="src\library\externalcss\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="src\library\externalcss\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="src\library\externalcss\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="src\library\externalcss\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="src\library\externalcss\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="src\library\externalcss\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="src\library\externalcss\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="src\library\externalcss\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="src\library\externalcss\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="src\library\externalcss\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="src\library\externalcss\000ui.multiselect.css" />
+    <Content Include="src\library\externaljs\00grid.locale-sv.js" />
+    <Content Include="src\library\externaljs\02ui.multiselect.js" />
+    <Content Include="src\library\externaljs\03jquery.jqGrid.js" />
+    <Content Include="tools\gulp\inline-resources.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="e2e\app.po.ts" />
+    <TypeScriptCompile Include="src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\Data\app.mockservice.ts" />
+    <TypeScriptCompile Include="src\app\app.component.ts" />
+    <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\Data\EditableGridPersistence.ts" />
+    <TypeScriptCompile Include="src\app\Data\EditableGrid.ts" />
+    <TypeScriptCompile Include="src\app\Data\AggregatedOrder.ts" />
+    <TypeScriptCompile Include="src\app\Data\Fund.ts" />
+    <TypeScriptCompile Include="src\app\Data\ObservableCreater.ts" />
+    <TypeScriptCompile Include="src\app\Data\TestGrid.ts" />
+    <TypeScriptCompile Include="src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="src\environments\environment.ts" />
+    <TypeScriptCompile Include="src\library\components\tcmcore.jqgrid.columndef.ts" />
+    <TypeScriptCompile Include="src\library\components\tcmcore.jqgrid.component.ts" />
+    <TypeScriptCompile Include="src\library\components\tcmcore.jqgrid.datecoldef.ts" />
+    <TypeScriptCompile Include="src\library\components\tcmcore.jqgrid.edittoolbar.ts" />
+    <TypeScriptCompile Include="src\library\components\tcmcore.jqgrid.Utilities.ts" />
+    <TypeScriptCompile Include="src\library\components\tcmcore.jqgrid.objects.ts" />
+    <TypeScriptCompile Include="src\library\components\tcmcore.jqgrid.rowbynumber.ts" />
+    <TypeScriptCompile Include="src\library\index.ts" />
+    <TypeScriptCompile Include="src\library\Shared\tcmCore.grid.objects.ts" />
+    <TypeScriptCompile Include="src\main.spec.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\polyfills.ts" />
+    <TypeScriptCompile Include="src\typings.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\Web.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61659</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61659/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
